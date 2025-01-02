@@ -5,7 +5,7 @@ function getElementWidth(content, padding, border) {
     const borderValue = parseFloat(border);
 
     // Toplam genişliği hesapla (box-sizing: border-box varsayımıyla)
-    const totalWidth = contentWidth + 2 * (paddingValue + borderValue);
+    const totalWidth = contentWidth + 2 * (paddingWidth + borderWidth);
 
     // Toplam genişliği 'px' formatında döndür
     return totalWidth;
